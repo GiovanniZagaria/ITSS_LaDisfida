@@ -1,5 +1,3 @@
-package main;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.BeforeEach;
@@ -30,30 +28,22 @@ class FinanceTest {
 
     @Test
     public void testZeroYears() {
-        assertThrows(IllegalArgumentException.class, () -> {
-            finance.calculateLoanPayment(10000, 5, 0);
-        });
+        assertThrows(IllegalArgumentException.class, () -> finance.calculateLoanPayment(10000, 5, 0));
     }
     
     @Test
     public void testNegativePrincipal() {
-    	assertThrows(IllegalArgumentException.class, () -> {
-    		finance.calculateLoanPayment(-50, 6, 5);
-    	});
+    	assertThrows(IllegalArgumentException.class, () -> finance.calculateLoanPayment(-50, 6, 5));
     }
     
     @Test
     public void testNegativeAnnualRate() {
-    	assertThrows(IllegalArgumentException.class, () ->{
-    		finance.calculateLoanPayment(5000, -1, 13);
-    	});
+    	assertThrows(IllegalArgumentException.class, () -> finance.calculateLoanPayment(5000, -1, 13));
     }
     
     @Test
     public void testNegativeYears() {
-        assertThrows(IllegalArgumentException.class, () -> {
-            finance.calculateLoanPayment(10000, 5, -3);
-        });
+        assertThrows(IllegalArgumentException.class, () -> finance.calculateLoanPayment(10000, 5, -3));
     }
     
     @Test
@@ -72,10 +62,8 @@ class FinanceTest {
     }
     
     @Test
-    public void testveryLowYears() {
-    	assertThrows(IllegalArgumentException.class,() ->{
-    		finance.calculateLoanPayment(3000, 7, 0.001);
-    	});
+    public void testVeryLowYears() {
+    	assertThrows(IllegalArgumentException.class,() -> finance.calculateLoanPayment(3000, 7, 0.001));
     }
     
     @Test
@@ -85,9 +73,7 @@ class FinanceTest {
     
     @Test
     public void testZeroRateAndZeroYears() {
-        assertThrows(IllegalArgumentException.class, () -> {
-            finance.calculateLoanPayment(120000, 0, 0);
-        });
+        assertThrows(IllegalArgumentException.class, () -> finance.calculateLoanPayment(120000, 0, 0));
     }
     
     @Test
@@ -97,43 +83,31 @@ class FinanceTest {
     
     @Test
     public void testZeroYearAndZeroPrincipal() {
-        assertThrows(IllegalArgumentException.class, () -> {
-            finance.calculateLoanPayment(0, 6, 0);
-        });
+        assertThrows(IllegalArgumentException.class, () -> finance.calculateLoanPayment(0, 6, 0));
     }
     
     @Test
     public void testNegativePrincipalAndYears() {
-    	assertThrows(IllegalArgumentException.class,() ->{
-    		finance.calculateLoanPayment(-1, 6, -2);
-    	});
+    	assertThrows(IllegalArgumentException.class,() -> finance.calculateLoanPayment(-1, 6, -2));
     }
     
     @Test
     public void testNegativePrincipalAndRate() {
-    	assertThrows(IllegalArgumentException.class,() ->{
-    		finance.calculateLoanPayment(-1, -2, 5);
-    	});
+    	assertThrows(IllegalArgumentException.class,() -> finance.calculateLoanPayment(-1, -2, 5));
     }
     
     @Test
     public void testNegativeRateAndYears() {
-    	assertThrows(IllegalArgumentException.class,() ->{
-    		finance.calculateLoanPayment(8, -2, -4);
-    	});
+    	assertThrows(IllegalArgumentException.class,() -> finance.calculateLoanPayment(8, -2, -4));
     }
     
     @Test
     public void testAllZero() {
-    	assertThrows(IllegalArgumentException.class,()->{
-    		finance.calculateLoanPayment(0, 0, 0);
-    	});
+    	assertThrows(IllegalArgumentException.class,()-> finance.calculateLoanPayment(0, 0, 0));
     }
     
     @Test
     public void testAllNegative() {
-    	assertThrows(IllegalArgumentException.class,()->{
-    		finance.calculateLoanPayment(-1, -1, -1);
-    	});
+    	assertThrows(IllegalArgumentException.class,()-> finance.calculateLoanPayment(-1, -1, -1));
     }
 }
