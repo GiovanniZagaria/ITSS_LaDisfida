@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="67cf5410-2147-4b93-ab68-4e04f686807c" name="Changes" comment="aggiunto un controllo nella funzione binarySearchInRange" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2i0zS59BDnPNkZecVXfJfGnicFI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "JUnit.FinanceTest.executor": "Run",
+    "JUnit.FinanceTest.testHighInterestRate.executor": "Debug",
+    "JUnit.FinanceTest.testInitialValues.executor": "Run",
+    "JUnit.FinanceTest.testVeryHighYears.executor": "Run",
+    "JUnit.FinanceTest.testVeryLowYears.executor": "Run",
+    "JUnit.FinanceTest.test_Principal0_annualRate0_years0.executor": "Run",
+    "JUnit.FinanceTest.test_Principal0_annualRate0_yearsG0.executor": "Run",
+    "JUnit.FinanceTest.test_Principal0_annualRate0_yearsL0.executor": "Run",
+    "JUnit.FinanceTest.test_Principal0_annualRateG0_years0.executor": "Run",
+    "JUnit.FinanceTest.test_Principal0_annualRateG0_yearsG0.executor": "Run",
+    "JUnit.FinanceTest.test_Principal0_annualRateG0_yearsL0.executor": "Run",
+    "JUnit.FinanceTest.test_Principal0_annualRateL0_years0.executor": "Run",
+    "JUnit.FinanceTest.test_Principal0_annualRateL0_yearsG0.executor": "Run",
+    "JUnit.FinanceTest.test_Principal0_annualRateL0_yearsL0.executor": "Run",
+    "JUnit.FinanceTest.test_PrincipalG0_annualRate0_years0.executor": "Run",
+    "JUnit.FinanceTest.test_PrincipalG0_annualRate0_yearsG0.executor": "Run",
+    "JUnit.FinanceTest.test_PrincipalG0_annualRate0_yearsL0.executor": "Run",
+    "JUnit.FinanceTest.test_PrincipalG0_annualRateG0_years0.executor": "Run",
+    "JUnit.FinanceTest.test_PrincipalG0_annualRateG0_yearsL0.executor": "Run",
+    "JUnit.FinanceTest.test_PrincipalG0_annualRateL0_years0.executor": "Run",
+    "JUnit.FinanceTest.test_PrincipalG0_annualRateL0_yearsG0.executor": "Run",
+    "JUnit.FinanceTest.test_PrincipalG0_annualRateL0_yearsL0.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\ITSS_LaDisfida\La_Disfida\src\test\java" />
+      <recent name="D:\GitHub\ITSS_LaDisfida\La_Disfida\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.FinanceTest.testHighInterestRate">
+    <configuration name="FinanceTest.testHighInterestRate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="La_Disfida" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FinanceTest" />
+      <option name="METHOD_NAME" value="testHighInterestRate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FinanceTest.testInitialValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="La_Disfida" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FinanceTest" />
+      <option name="METHOD_NAME" value="testInitialValues" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FinanceTest.testVeryHighYears" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="La_Disfida" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FinanceTest" />
+      <option name="METHOD_NAME" value="testVeryHighYears" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FinanceTest.test_Principal0_annualRateL0_years0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="La_Disfida" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FinanceTest" />
+      <option name="METHOD_NAME" value="test_Principal0_annualRateL0_years0" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FinanceTest.test_PrincipalG0_annualRateG0_yearsL0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="La_Disfida" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FinanceTest" />
+      <option name="METHOD_NAME" value="test_PrincipalG0_annualRateG0_yearsL0" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FinanceTest.testHighInterestRate" />
+        <item itemvalue="JUnit.FinanceTest.testVeryHighYears" />
+        <item itemvalue="JUnit.FinanceTest.testInitialValues" />
+        <item itemvalue="JUnit.FinanceTest.test_PrincipalG0_annualRateG0_yearsL0" />
+        <item itemvalue="JUnit.FinanceTest.test_Principal0_annualRateL0_years0" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-19.0.2-corretto-19.0.2-4caba194b151-48ba4555" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="67cf5410-2147-4b93-ab68-4e04f686807c" name="Changes" comment="" />
+      <created>1718642284618</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718642284618</updated>
+      <workItem from="1718642285973" duration="9283000" />
+      <workItem from="1718699497770" duration="922000" />
+      <workItem from="1718700752800" duration="220000" />
+      <workItem from="1718700993249" duration="6486000" />
+      <workItem from="1718723640513" duration="1606000" />
+    </task>
+    <task id="LOCAL-00001" summary="creato il progetto con intelliJ IDEA">
+      <option name="closed" value="true" />
+      <created>1718642770472</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718642770472</updated>
+    </task>
+    <task id="LOCAL-00002" summary="cancellati i test vecchi e creati test nuovi, aggiunta piccola descrizione del lavoro fatto, modificato @BeforeEach con @BeforeAll">
+      <option name="closed" value="true" />
+      <created>1718654196749</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718654196749</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Modificato valore del test VeryHighYears, da 83.82 a 0.83">
+      <option name="closed" value="true" />
+      <created>1718703477913</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718703477913</updated>
+    </task>
+    <task id="LOCAL-00004" summary="saas">
+      <option name="closed" value="true" />
+      <created>1718708686980</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718708686980</updated>
+    </task>
+    <task id="LOCAL-00005" summary="aggiunto un controllo nella funzione binarySearchInRange">
+      <option name="closed" value="true" />
+      <created>1718723819407</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718723819407</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="creato il progetto con intelliJ IDEA" />
+    <MESSAGE value="cancellati i test vecchi e creati test nuovi, aggiunta piccola descrizione del lavoro fatto, modificato @BeforeEach con @BeforeAll" />
+    <MESSAGE value="Modificato valore del test VeryHighYears, da 83.82 a 0.83" />
+    <MESSAGE value="saas" />
+    <MESSAGE value="aggiunto un controllo nella funzione binarySearchInRange" />
+    <option name="LAST_COMMIT_MESSAGE" value="aggiunto un controllo nella funzione binarySearchInRange" />
+  </component>
+</project>
