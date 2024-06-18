@@ -4,39 +4,6 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import java.util.Random;
 
-/*
-
-   Si ipotizza di conoscere solamente:
-		1. Gli input ed i loro tipi
-		2. Il tipo di output
-
-   NOTA:
-   si ipotizza di non conoscere la possibilità di poter
-   ricevere in output una Eccezione.
-   Tutti questi test sono stati scritti per valutare
-   ogni singola combinazione delle variabili in input
-
-   LEGENDA:  N -> Null,
-		     E -> Empty,
-	    	 1 -> Array with length 1,
-	    	AL -> Array Length Value - 1 or above,
-	    	IN -> Value IN array,
-	   	   NIN -> Value Not IN array,
-	  	  NORD -> Array Not ORDered, l'array ha obbligatoriamente length > 1,
-	   	   ORD -> Array ORDered, l'array ha obbligatoriamente length > 1.
-
-   Nel nome del test, se non è presente nessuna dicitura soprastante, allora
-   si può inserire qualsiasi valore si voglia.
-
-   In ogni chiamata del metodo "assertEquals()" i valori
-   utilizzati per il parametro "expected" sono valori
-   fantoccio, in quanto utilizzati solamente per conoscere
-   il risultato della combinazione dei parametri di input
-   del metodo testato "binarySearchInRange()" della classe
-   "Search".
-
-*/
-
 class SearchTest {
 	static Search search;
 
