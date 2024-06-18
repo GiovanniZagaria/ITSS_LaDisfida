@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67cf5410-2147-4b93-ab68-4e04f686807c" name="Changes" comment="aggiunto un controllo nella funzione binarySearchInRange" />
+    <list default="true" id="67cf5410-2147-4b93-ab68-4e04f686807c" name="Changes" comment="aggiunto un controllo nella funzione binarySearchInRange">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -161,7 +163,7 @@
       <workItem from="1718699497770" duration="922000" />
       <workItem from="1718700752800" duration="220000" />
       <workItem from="1718700993249" duration="6486000" />
-      <workItem from="1718723640513" duration="1606000" />
+      <workItem from="1718723640513" duration="2385000" />
     </task>
     <task id="LOCAL-00001" summary="creato il progetto con intelliJ IDEA">
       <option name="closed" value="true" />
