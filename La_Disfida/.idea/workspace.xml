@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67cf5410-2147-4b93-ab68-4e04f686807c" name="Changes" comment="aggiunto un controllo nella funzione binarySearchInRange">
+    <list default="true" id="67cf5410-2147-4b93-ab68-4e04f686807c" name="Changes" comment="m">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FinanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FinanceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +85,16 @@
       <recent name="D:\GitHub\ITSS_LaDisfida\La_Disfida\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FinanceTest.testHighInterestRate">
+  <component name="RunManager" selected="JUnit.FinanceTest">
+    <configuration name="FinanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="La_Disfida" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FinanceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FinanceTest.testHighInterestRate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="La_Disfida" />
       <option name="PACKAGE_NAME" value="" />
@@ -114,16 +125,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinanceTest.test_Principal0_annualRateL0_years0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="La_Disfida" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FinanceTest" />
-      <option name="METHOD_NAME" value="test_Principal0_annualRateL0_years0" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FinanceTest.test_PrincipalG0_annualRateG0_yearsL0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="La_Disfida" />
       <option name="PACKAGE_NAME" value="" />
@@ -136,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FinanceTest" />
         <item itemvalue="JUnit.FinanceTest.testHighInterestRate" />
         <item itemvalue="JUnit.FinanceTest.testVeryHighYears" />
         <item itemvalue="JUnit.FinanceTest.testInitialValues" />
         <item itemvalue="JUnit.FinanceTest.test_PrincipalG0_annualRateG0_yearsL0" />
-        <item itemvalue="JUnit.FinanceTest.test_Principal0_annualRateL0_years0" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +164,7 @@
       <workItem from="1718699497770" duration="922000" />
       <workItem from="1718700752800" duration="220000" />
       <workItem from="1718700993249" duration="6486000" />
-      <workItem from="1718723640513" duration="2385000" />
+      <workItem from="1718723640513" duration="5890000" />
     </task>
     <task id="LOCAL-00001" summary="creato il progetto con intelliJ IDEA">
       <option name="closed" value="true" />
@@ -205,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718723819407</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="m">
+      <option name="closed" value="true" />
+      <created>1718726582570</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718726582570</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +227,7 @@
     <MESSAGE value="Modificato valore del test VeryHighYears, da 83.82 a 0.83" />
     <MESSAGE value="saas" />
     <MESSAGE value="aggiunto un controllo nella funzione binarySearchInRange" />
-    <option name="LAST_COMMIT_MESSAGE" value="aggiunto un controllo nella funzione binarySearchInRange" />
+    <MESSAGE value="m" />
+    <option name="LAST_COMMIT_MESSAGE" value="m" />
   </component>
 </project>

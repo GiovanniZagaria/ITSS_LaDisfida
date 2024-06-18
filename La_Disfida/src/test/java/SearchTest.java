@@ -4,6 +4,35 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import java.util.Random;
 
+/*
+
+   Si ipotizza di conoscere solamente:
+		1. Gli input ed i loro tipi
+		2. Il tipo di output
+
+   NOTA:
+   si ipotizza di non conoscere la possibilità di poter
+   ricevere in output una Eccezione.
+   Tutti questi test sono stati scritti per valutare
+   ogni singola combinazione delle variabili in input
+
+   LEGENDA:  0 -> Equal to 0,
+			L0 -> Less Than 0,
+			 N -> Null,
+			 E -> Empty,
+			LAL -> Less Than Array Length Value
+			 AL -> Array Length Value - 1
+			GAL -> Greater than Array Length Value - 1
+
+   In ogni chiamata del metodo "assertEquals()" i valori
+   utilizzati per il parametro "expected" sono valori
+   fantoccio, in quanto utilizzati solamente per conoscere
+   il risultato della combinazione dei parametri di input
+   del metodo testato "calculateLoanPayment()" della classe
+   "Finance".
+
+*/
+
 class SearchTest {
 	static Search search;
 

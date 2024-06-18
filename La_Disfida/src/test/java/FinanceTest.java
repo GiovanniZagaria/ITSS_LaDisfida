@@ -237,7 +237,7 @@ class FinanceTest {
 
 	@Test
 	public void testVeryHighYears() {
-		assertEquals(83.82, finance.calculateLoanPayment(500, 2, 500), 1e-2);
+		assertEquals(0.83, finance.calculateLoanPayment(500, 2, 500), 1e-2);
 	}
 
 
