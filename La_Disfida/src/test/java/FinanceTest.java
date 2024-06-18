@@ -3,7 +3,9 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-/* Si ipotizza di conoscere solamente:
+/*
+
+   Si ipotizza di conoscere solamente:
 		1. Gli input ed i loro tipi
 		2. Il tipo di output
 
@@ -16,6 +18,8 @@ import org.junit.jupiter.api.Test;
    LEGENDA: G0 -> Greater Than 0,
  			 0 -> Equal to 0,
 			L0 -> Less Than 0.
+
+
 
    In ogni chiamata del metodo "assertEquals()" i valori
    utilizzati per il parametro "expected" sono valori
@@ -55,42 +59,42 @@ class FinanceTest {
 
 	@Test //5
 	public void test_PrincipalG0_annualRate0_years0(){
-		assertEquals(10, finance.calculateLoanPayment(500, 0, 0), 1e-2);
+		assertEquals(10, finance.calculateLoanPayment(500.0, 0, 0), 1e-2);
 	}
 
 	@Test //6
 	public void test_PrincipalG0_annualRate0_yearsL0(){
-		assertEquals(10, finance.calculateLoanPayment(500, 0, -1), 1e-2);
+		assertEquals(10, finance.calculateLoanPayment(500.0, 0, -1), 1e-2);
 	}
 
 	@Test //7
 	public void test_PrincipalG0_annualRateL0_yearsG0(){
-		assertEquals(10, finance.calculateLoanPayment(500, -1, 1), 1e-2);
+		assertEquals(10, finance.calculateLoanPayment(500.0, -1, 1), 1e-2);
 	}
 
 	@Test //8
 	public void test_PrincipalG0_annualRateL0_years0(){
-		assertEquals(10, finance.calculateLoanPayment(500, -1, -1), 1e-2);
+		assertEquals(10, finance.calculateLoanPayment(500.0, -1, -1), 1e-2);
 	}
 
 	@Test //9
 	public void test_PrincipalG0_annualRateL0_yearsL0(){
-		assertEquals(10, finance.calculateLoanPayment(500, -1, -1), 1e-2);
+		assertEquals(10, finance.calculateLoanPayment(500.0, -1, -1), 1e-2);
 	}
 
 	@Test //10
 	public void test_Principal0_annualRateG0_yearsG0(){
-		assertEquals(0, finance.calculateLoanPayment(0, 4, 6), 1e-2);
+		assertEquals(0, finance.calculateLoanPayment(0, 4.0, 6), 1e-2);
 	}
 
 	@Test //11
 	public void test_Principal0_annualRateG0_years0(){
-		assertEquals(0, finance.calculateLoanPayment(0, 4, 0), 1e-2);
+		assertEquals(0, finance.calculateLoanPayment(0, 4.0, 0), 1e-2);
 	}
 
 	@Test //12
 	public void test_Principal0_annualRateG0_yearsL0(){
-		assertEquals(0, finance.calculateLoanPayment(0, 4, -1), 1e-2);
+		assertEquals(0, finance.calculateLoanPayment(0, 4.0, -1), 1e-2);
 	}
 
 	@Test //13
@@ -169,16 +173,18 @@ class FinanceTest {
 	}
 
 	/*
-	Dopo aver implementato i test necessari per capire le funzioni del codice (black box testing),
-	abbiamo deciso di implementare anche alcuni test che necessitano della conoscenza
-	del contenuto del metodo (white box testing).
 
-	Abbiamo deciso di implementare i seguenti test:
-	-Test con valori normali
-	-Test con valori negativi
-	-Test con valori uguali a 0
-	-Test con valori piccolissimi
-	-Test con valori altissimi
+		Dopo aver implementato i test necessari per capire le funzioni del codice (black box testing),
+		abbiamo deciso di implementare anche alcuni test che necessitano della conoscenza
+		del contenuto del metodo (white box testing).
+
+		Abbiamo deciso di implementare i seguenti test:
+		-Test con valori normali
+		-Test con valori negativi
+		-Test con valori uguali a 0
+		-Test con valori piccolissimi
+		-Test con valori altissimi
+
 	 */
 
 
