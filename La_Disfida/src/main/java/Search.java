@@ -13,6 +13,11 @@ public class Search {
 
         // Perform non-recursive binary search
         while (left <= right) {
+
+            if(array[left] == value || array[right] == value) {
+                return true;
+            }
+
             int mid = left + (right - left) / 2;
 
             if (array[mid] == value) {
