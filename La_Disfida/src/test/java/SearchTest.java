@@ -16,20 +16,24 @@ import java.util.Random;
    Tutti questi test sono stati scritti per valutare
    ogni singola combinazione delle variabili in input
 
-   LEGENDA:  0 -> Equal to 0,
-			L0 -> Less Than 0,
-			 N -> Null,
-			 E -> Empty,
-			LAL -> Less Than Array Length Value
-			 AL -> Array Length Value - 1
-			GAL -> Greater than Array Length Value - 1
+   LEGENDA:  N -> Null,
+		     E -> Empty,
+	    	 1 -> Array with length 1,
+	    	AL -> Array Length Value - 1 or above,
+	    	IN -> Value IN array,
+	   	   NIN -> Value Not IN array,
+	  	  NORD -> Array Not ORDered, l'array ha obbligatoriamente length > 1,
+	   	   ORD -> Array ORDered, l'array ha obbligatoriamente length > 1.
+
+   Nel nome del test, se non è presente nessuna dicitura soprastante, allora
+   si può inserire qualsiasi valore si voglia.
 
    In ogni chiamata del metodo "assertEquals()" i valori
    utilizzati per il parametro "expected" sono valori
    fantoccio, in quanto utilizzati solamente per conoscere
    il risultato della combinazione dei parametri di input
-   del metodo testato "calculateLoanPayment()" della classe
-   "Finance".
+   del metodo testato "binarySearchInRange()" della classe
+   "Search".
 
 */
 
