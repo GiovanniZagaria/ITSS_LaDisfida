@@ -6,10 +6,47 @@ import java.util.Random;
 
 class SearchTest {
 	static Search search;
+	int[] emptyArray = {};
+	int[] notORDArray = {1, 2, 5, 4, 3};
+	int[] ORDArray = {1, 2, 3, 4, 5};
+	int[] singleElementArray = {1};
 
 	@BeforeAll
 	static void init(){
 		search = new Search();
+
+	}
+
+	//BLACKBOX TESTING
+	@Test
+	//TEST CASI ECCEZIONALI:
+	public void testExceptionalCases() {
+		assertThrows(IllegalArgumentException.class, () -> search.binarySearchInRange(null, 3, 0, 4));
+		assertThrows(IllegalArgumentException.class, () -> search.binarySearchInRange(emptyArray, 3, 0, 4));
+		assertThrows(IllegalArgumentException.class, () -> search.binarySearchInRange(notORDArray, 3, 0, 4));
+		assertThrows(IllegalArgumentException.class, () -> search.binarySearchInRange(ORDArray, 3, 3, 1));
+		assertThrows(IllegalArgumentException.class, () -> search.binarySearchInRange(ORDArray, 3, -1, 3));
+		assertThrows(IllegalArgumentException.class, () -> search.binarySearchInRange(ORDArray, 3, 1, ORDArray.length));
+	}
+
+	@Test
+	public void testArray1(){
+		assertTrue(() -> search.binarySearchInRange(singleElementArray, 1, 0, 0));
+		assertFalse(() -> search.binarySearchInRange(singleElementArray, 3, 0, 0));
+	}
+
+	@Test
+	public void testArrayG1(){
+		assertTrue(() -> search.binarySearchInRange(ORDArray, 3, 2, 3));
+		assertTrue(() -> search.binarySearchInRange(ORDArray, 3, 1, 2));
+		assertFalse(() -> search.binarySearchInRange(ORDArray, 9, 1, 3));
+	}
+
+	@Test
+	public void testBoundaries(){
+		assertTrue(() -> search.binarySearchInRange(ORDArray, 3, 2, 2));
+		assertTrue(() -> search.binarySearchInRange(ORDArray, 2, 1, 4));
+		assertTrue(() -> search.binarySearchInRange(ORDArray, 4, 0, 4));
 	}
 
 	@Test

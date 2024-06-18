@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67cf5410-2147-4b93-ab68-4e04f686807c" name="Changes" comment="modifica alla documentazione in SearchTest">
+    <list default="true" id="67cf5410-2147-4b93-ab68-4e04f686807c" name="Changes" comment="tolta la documentazione in SearchTest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/FinanceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FinanceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SearchTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +67,10 @@
     "JUnit.FinanceTest.test_PrincipalG0_annualRateL0_years0.executor": "Run",
     "JUnit.FinanceTest.test_PrincipalG0_annualRateL0_yearsG0.executor": "Run",
     "JUnit.FinanceTest.test_PrincipalG0_annualRateL0_yearsL0.executor": "Run",
+    "JUnit.SearchTest.testArray1.executor": "Run",
+    "JUnit.SearchTest.testArrayG1.executor": "Run",
+    "JUnit.SearchTest.testBoundaries.executor": "Run",
+    "JUnit.SearchTest.testExceptionalCases.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -84,7 +90,7 @@
       <recent name="D:\GitHub\ITSS_LaDisfida\La_Disfida\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FinanceTest">
+  <component name="RunManager" selected="JUnit.SearchTest.testBoundaries">
     <configuration name="FinanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="La_Disfida" />
       <option name="PACKAGE_NAME" value="" />
@@ -94,41 +100,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinanceTest.testHighInterestRate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchTest.testArray1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="La_Disfida" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FinanceTest" />
-      <option name="METHOD_NAME" value="testHighInterestRate" />
+      <option name="MAIN_CLASS_NAME" value="SearchTest" />
+      <option name="METHOD_NAME" value="testArray1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinanceTest.testInitialValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchTest.testArrayG1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="La_Disfida" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FinanceTest" />
-      <option name="METHOD_NAME" value="testInitialValues" />
+      <option name="MAIN_CLASS_NAME" value="SearchTest" />
+      <option name="METHOD_NAME" value="testArrayG1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinanceTest.testVeryHighYears" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchTest.testBoundaries" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="La_Disfida" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FinanceTest" />
-      <option name="METHOD_NAME" value="testVeryHighYears" />
+      <option name="MAIN_CLASS_NAME" value="SearchTest" />
+      <option name="METHOD_NAME" value="testBoundaries" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinanceTest.test_PrincipalG0_annualRateG0_yearsL0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchTest.testExceptionalCases" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="La_Disfida" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FinanceTest" />
-      <option name="METHOD_NAME" value="test_PrincipalG0_annualRateG0_yearsL0" />
+      <option name="MAIN_CLASS_NAME" value="SearchTest" />
+      <option name="METHOD_NAME" value="testExceptionalCases" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SearchTest.testBoundaries" />
+        <item itemvalue="JUnit.SearchTest.testArrayG1" />
+        <item itemvalue="JUnit.SearchTest.testArray1" />
+        <item itemvalue="JUnit.SearchTest.testExceptionalCases" />
         <item itemvalue="JUnit.FinanceTest" />
-        <item itemvalue="JUnit.FinanceTest.testHighInterestRate" />
-        <item itemvalue="JUnit.FinanceTest.testVeryHighYears" />
-        <item itemvalue="JUnit.FinanceTest.testInitialValues" />
-        <item itemvalue="JUnit.FinanceTest.test_PrincipalG0_annualRateG0_yearsL0" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +169,7 @@
       <workItem from="1718699497770" duration="922000" />
       <workItem from="1718700752800" duration="220000" />
       <workItem from="1718700993249" duration="6486000" />
-      <workItem from="1718723640513" duration="10278000" />
+      <workItem from="1718723640513" duration="13049000" />
     </task>
     <task id="LOCAL-00001" summary="creato il progetto con intelliJ IDEA">
       <option name="closed" value="true" />
@@ -229,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718733628174</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="tolta la documentazione in SearchTest">
+      <option name="closed" value="true" />
+      <created>1718739965447</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718739965447</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +259,7 @@
     <MESSAGE value="m" />
     <MESSAGE value="breve documentazione in SearchTest" />
     <MESSAGE value="modifica alla documentazione in SearchTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="modifica alla documentazione in SearchTest" />
+    <MESSAGE value="tolta la documentazione in SearchTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="tolta la documentazione in SearchTest" />
   </component>
 </project>
