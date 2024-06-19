@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67cf5410-2147-4b93-ab68-4e04f686807c" name="Changes" comment="tolta la documentazione in SearchTest">
+    <list default="true" id="67cf5410-2147-4b93-ab68-4e04f686807c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FinanceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FinanceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SearchTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FinanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FinanceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,56 +39,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "JUnit.FinanceTest.executor": "Run",
-    "JUnit.FinanceTest.testHighInterestRate.executor": "Debug",
-    "JUnit.FinanceTest.testInitialValues.executor": "Run",
-    "JUnit.FinanceTest.testVeryHighYears.executor": "Run",
-    "JUnit.FinanceTest.testVeryLowYears.executor": "Run",
-    "JUnit.FinanceTest.test_Principal0_annualRate0_years0.executor": "Run",
-    "JUnit.FinanceTest.test_Principal0_annualRate0_yearsG0.executor": "Run",
-    "JUnit.FinanceTest.test_Principal0_annualRate0_yearsL0.executor": "Run",
-    "JUnit.FinanceTest.test_Principal0_annualRateG0_years0.executor": "Run",
-    "JUnit.FinanceTest.test_Principal0_annualRateG0_yearsG0.executor": "Run",
-    "JUnit.FinanceTest.test_Principal0_annualRateG0_yearsL0.executor": "Run",
-    "JUnit.FinanceTest.test_Principal0_annualRateL0_years0.executor": "Run",
-    "JUnit.FinanceTest.test_Principal0_annualRateL0_yearsG0.executor": "Run",
-    "JUnit.FinanceTest.test_Principal0_annualRateL0_yearsL0.executor": "Run",
-    "JUnit.FinanceTest.test_PrincipalG0_annualRate0_years0.executor": "Run",
-    "JUnit.FinanceTest.test_PrincipalG0_annualRate0_yearsG0.executor": "Run",
-    "JUnit.FinanceTest.test_PrincipalG0_annualRate0_yearsL0.executor": "Run",
-    "JUnit.FinanceTest.test_PrincipalG0_annualRateG0_years0.executor": "Run",
-    "JUnit.FinanceTest.test_PrincipalG0_annualRateG0_yearsL0.executor": "Run",
-    "JUnit.FinanceTest.test_PrincipalG0_annualRateL0_years0.executor": "Run",
-    "JUnit.FinanceTest.test_PrincipalG0_annualRateL0_yearsG0.executor": "Run",
-    "JUnit.FinanceTest.test_PrincipalG0_annualRateL0_yearsL0.executor": "Run",
-    "JUnit.SearchTest.testArray1.executor": "Run",
-    "JUnit.SearchTest.testArrayG1.executor": "Run",
-    "JUnit.SearchTest.testBoundaries.executor": "Run",
-    "JUnit.SearchTest.testExceptionalCases.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;JUnit.FinanceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FinanceTest.testHighInterestRate.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.FinanceTest.testInitialValues.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FinanceTest.testVeryHighYears.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FinanceTest.testVeryLowYears.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FinanceTest.test_Principal0_annualRate0_years0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FinanceTest.test_Principal0_annualRate0_yearsG0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FinanceTest.test_Principal0_annualRate0_yearsL0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FinanceTest.test_Principal0_annualRateG0_years0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FinanceTest.test_Principal0_annualRateG0_yearsG0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FinanceTest.test_Principal0_annualRateG0_yearsL0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FinanceTest.test_Principal0_annualRateL0_years0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FinanceTest.test_Principal0_annualRateL0_yearsG0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FinanceTest.test_Principal0_annualRateL0_yearsL0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FinanceTest.test_PrincipalG0_annualRate0_years0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FinanceTest.test_PrincipalG0_annualRate0_yearsG0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FinanceTest.test_PrincipalG0_annualRate0_yearsL0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FinanceTest.test_PrincipalG0_annualRateG0_years0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FinanceTest.test_PrincipalG0_annualRateG0_yearsL0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FinanceTest.test_PrincipalG0_annualRateL0_years0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FinanceTest.test_PrincipalG0_annualRateL0_yearsG0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FinanceTest.test_PrincipalG0_annualRateL0_yearsL0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SearchTest.testArray1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SearchTest.testArrayG1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SearchTest.testBoundaries.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SearchTest.testExceptionalCases.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GitHub\ITSS_LaDisfida\La_Disfida\src\test\java" />
       <recent name="D:\GitHub\ITSS_LaDisfida\La_Disfida\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SearchTest.testBoundaries">
+  <component name="RunManager" selected="JUnit.FinanceTest">
     <configuration name="FinanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="La_Disfida" />
       <option name="PACKAGE_NAME" value="" />
@@ -142,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FinanceTest" />
         <item itemvalue="JUnit.SearchTest.testBoundaries" />
         <item itemvalue="JUnit.SearchTest.testArrayG1" />
         <item itemvalue="JUnit.SearchTest.testArray1" />
         <item itemvalue="JUnit.SearchTest.testExceptionalCases" />
-        <item itemvalue="JUnit.FinanceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +167,8 @@
       <workItem from="1718699497770" duration="922000" />
       <workItem from="1718700752800" duration="220000" />
       <workItem from="1718700993249" duration="6486000" />
-      <workItem from="1718723640513" duration="13049000" />
+      <workItem from="1718723640513" duration="13234000" />
+      <workItem from="1718786267883" duration="2567000" />
     </task>
     <task id="LOCAL-00001" summary="creato il progetto con intelliJ IDEA">
       <option name="closed" value="true" />
@@ -243,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718739965447</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Scritti i test per il metodo di testing blackbox in SearchTest. Stanno da rivedere i test per la metodologia di testing whitebox">
+      <option name="closed" value="true" />
+      <created>1718743120063</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718743120063</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,6 +267,7 @@
     <MESSAGE value="breve documentazione in SearchTest" />
     <MESSAGE value="modifica alla documentazione in SearchTest" />
     <MESSAGE value="tolta la documentazione in SearchTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="tolta la documentazione in SearchTest" />
+    <MESSAGE value="Scritti i test per il metodo di testing blackbox in SearchTest. Stanno da rivedere i test per la metodologia di testing whitebox" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scritti i test per il metodo di testing blackbox in SearchTest. Stanno da rivedere i test per la metodologia di testing whitebox" />
   </component>
 </project>

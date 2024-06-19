@@ -1,0 +1,111 @@
+   Search.java
+
+   binarySearchInRange(int[] array, int value, int left, int right);
+
+   OBIETTIVO: L'obiettivo di questa funzione è cercare all'interno di 
+   un sotto-intervallo di un'array un valore, utilizzando la ricerca binaria.
+
+   Il metodo riceve in input 4 parametri:
+	1 - array, rappresenta l'insieme dei valori in cui cercare;
+	2 - value, rappresenta il valore da cercare;
+	3 - left, indica l'indice iniziale del sotto-intervallo;
+	4 - right, indica il l'indice finale del sotto-intervallo.
+   Il metodo restituisce un valore booleano.
+
+   Si ipotizza di conoscere solamente:
+	1. Gli input ed i loro tipi
+	2. Il tipo di output
+
+   In ogni chiamata del metodo "assertEquals()" i valori
+   utilizzati per il parametro "expected" sono valori
+   fantoccio, in quanto utilizzati solamente per conoscere
+   il risultato della combinazione dei parametri di input
+   del metodo testato "binarySearchInRange()" della classe
+   "Search".
+
+   VALORI INDIVIDUALI
+	array: null, empty, lunghezza 1, lunghezza > 1, ordinato, non ordinato
+	value: numero intero
+	left: 0, <0, >0
+	right: 0, <0, >0
+
+   LEGENDA:  N -> Null,
+	     E -> Empty,
+	     1 -> Array with length 1,
+	    AL -> Array Length Value or above,
+	   NAL -> Array Length Value between 1 and AL (AL non incluso)
+	    IN -> Value IN array,
+	   NIN -> Value Not IN array,
+	  NORD -> Array Not ORDered, l'array ha obbligatoriamente length > 1,
+	   ORD -> Array ORDered, l'array ha obbligatoriamente length > 1,
+	    L0 -> Less Than 0,
+	    GN -> Greater Than N, dove N è un numero qualsiasi.
+	  IntelliJ [IDEA] -> IDE utilizzato.
+
+   Nel nome del test, se non è presente nessuna dicitura soprastante, allora
+   si può inserire qualsiasi valore si voglia.
+
+   COMBINAZIONI DI INPUT:
+	1 - array è ordinato e contiene value in [left, right]
+	2 - array è ordinato ma non contiene value
+	3 - array è ordinato ma non contiene value in [left, right]
+	4 - array è ordinato e contiene value ma left > right
+	5 - array è ordinato e contiene value ma left < 0
+	6 - array è ordinato e contiene value ma right >= array.length
+	7 - array non è ordinato ma contiene value in [left, right]
+	8 - array non è ordinato e non contiene value
+	9 - array non è ordinato e non contiene value in [left, right]
+       10 - array non è ordinato ma contiene value ma left > right
+       11 - array non è ordinato ma contiene value ma right >= array.length
+       12 - array non è ordinato ma contiene value ma left < 0
+       13 - array contiene value e array[left] == value
+       14 - array contiene value e array[right] == value
+       15 - array contiene value e left == right
+	
+   Fino a questo punto dell'analisi, si ottiene che il numero di test da 
+   effettuare equivale a 5x1x3x3x15 = 675. 
+
+   CLASSI DI OUTPUT PREVISTI:
+	1 - True
+	2 - False
+	3 - Errore
+
+   CASI LIMITE:
+	1 - left = right
+	2 - right = array.length - 1
+	3 - left = 0
+
+   TEST CASI ECCEZIONALI:
+	T1: array è null
+	T2: array è empty
+	T3: array non è ordinato
+	T4: left > right
+	T5: left < 0
+	T6: right >= array.length
+	
+   TEST ARRAY.LENGTH == 1:
+	T7: array contiene value
+	T8: array non contiene value
+
+   TEST ARRAY.LENGTH > 1:
+	T9: array contiene value, left > 0 e array[left] == value
+	T10: array contiene value,  right < array.length-1 
+	     e array[right] == value
+	T11: array non contiene value
+
+   TEST BOUNDARIES:
+	T12: array contiene value, left == right e 
+	     array[left] == array[right] == value
+	T13: array contiene value e right == array.length - 1
+	T14: array contiene value e left == 0
+
+
+
+
+
+
+
+
+
+   
+

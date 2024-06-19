@@ -1,0 +1,106 @@
+   Finance.calculateLoanPayment(double principal, 
+				double annualRate, 
+				int years)
+   
+   Obiettivo: calcolare l'interesse da pagare per un prestito.
+   
+   Il programma riceve in input:
+	- principal, somma richiesta per il prestito;
+	- annualRate, tasso annuale di interesse;
+	- years, anni di durata del pagamento.
+
+   Il programma restituisce il valore dell'interesse da pagare.
+
+   Si ipotizza di conoscere solamente:
+	1. Gli input ed i loro tipi
+	2. Il tipo di output
+
+   
+   In ogni chiamata del metodo "assertEquals()" i valori
+   utilizzati per il parametro "expected" sono valori
+   fantoccio, in quanto utilizzati solamente per conoscere
+   il risultato della combinazione dei parametri di input
+   del metodo testato "calculateLoanPayment()" della classe
+   "Finance".
+
+--------------------------------------------------------------------------
+   Sono stati effettuati diversi test così da poter comprendere
+   il contenuto del codice da analizzare. Scrivendo i casi di 
+   test si notava che inserito un valore di tipo "int" IntelliJ non
+   mostrava nessun errore, quindi si è proceduto ad utilizzare
+   dei valori di tipo "double" e non mostrando ancora nessun errore
+   si è capito che il tipo di dato utilizzato per i primi due parametri
+   del metodo è "double"; ciò non vale per il parametro "years" che è
+   obbligatoriamente di tipo "int". (allegare lo screenshot)
+   Scrivendo i test, si è notato che per valori inferiori a 0 per 
+   tutti e tre i parametri si riceve in output una 
+   "IllegalArgumentException" con un messaggio specifico allegato; 
+   ciò accade anche se al parametro "years" viene settato a 0.
+
+   Dopo questa fase di testing si è proceduto a scrivere dei casi di 
+   test che vadano a buon fine. Per fare ciò si è visto il contenuto
+   del metodo preso in esame. Conoscendo ora il contenuto della funzione
+   si è proceduto a scrivere dei test che vanno a buon fine. Si è 
+   utilizzato il metodo "assertEquals" dell'API JUnit per confrontare
+   il valore restituito da "calculateLoanPayment()" con quello calcolato;
+   mentre si è utilizzato il metodo "assertThrows()" della stessa API
+   per ricevere in output il risultato di "IllegalArgumentException".
+   (allegare screenshot)
+
+   Individuati ed eseguiti i test minimi necessari, si è proceduto a 
+   stilare la lista degli stati possibili dei parametri e le loro
+   combinazioni.
+--------------------------------------------------------------------------
+	
+   LEGENDA: G0 -> Greater Than 0,
+ 	     0 -> Equal to 0,
+	    L0 -> Less Than 0.
+            IntelliJ [IDEA] -> IDE utilizzato.
+
+
+   (INPUT INDIVIDUALI)
+	double principal: G0, 0, L0
+	double annualRate: G0, 0, L0
+	int Years: G0, 0, L0
+	
+    (COMBINAZIONI DI INPUT)
+	parametri (principal, annualRate, years):
+	
+	[(G0 | 0 | L0), (G0 | 0 | L0), (G0 | 0 | L0)]
+
+	"[(G0 | 0 | L0), (G0 | 0 | L0), (G0 | 0 | L0)]", 
+	questa dicitura indica che si prendono tutte le 
+	combinazioni dei parametri, ad esempio: 
+	principal: 500, annualRate: 0, years: -1
+
+    (CLASSI DI OUTPUT)
+	1 - output > 0
+	2 - output = 0
+	3 - Errore
+
+    (CASI LIMITE)
+	1 - Tutti i parametri sono L0
+	2 - Il parametro "years" è 0
+	
+    Nell'implementazione del metodo testato sono presenti due variabili
+    dipendenti da due parametri:
+	1 - monthlyRate (double), dipendente dal parametro "annualRate"
+	2 - numPayments (int), dipendente dal parametro "years".
+    Quando "numPayments" è 0, allora vuol dire che "years" è 0 ed il 
+    metodo restituisce in output una IllegalArgumentException con 
+    un messaggio allegato.
+    Quando "annualRate" è 0 e gli altri parametri sono corretti, il
+    programma semplicemente restituisce il valore dato dal calcolo 
+    "principal / numPayments".
+
+
+
+
+
+
+
+
+
+
+
+
