@@ -12,6 +12,8 @@
 	4 - right, indica il l'indice finale del sotto-intervallo.
    Il metodo restituisce un valore booleano.
 
+
+
    Si ipotizza di conoscere solamente:
 	1. Gli input ed i loro tipi
 	2. Il tipo di output

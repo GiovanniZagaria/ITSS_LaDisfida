@@ -37,6 +37,7 @@ class FinanceTest {
 		assertEquals(0, finance.calculateLoanPayment(0, -1, -1), 1e-2);
 	}
 
+
 	@Test
 	public void testCombinationsFirstParamL0(){
 		assertEquals(0, finance.calculateLoanPayment(-1, 4, 6), 1e-2);

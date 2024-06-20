@@ -11,6 +11,42 @@
 
    Il programma restituisce il valore dell'interesse da pagare.
 
+2
+
+	
+   LEGENDA: G0 -> Greater Than 0,
+ 	     0 -> Equal to 0,
+	    L0 -> Less Than 0.
+            IntelliJ [IDEA] -> IDE utilizzato.
+
+Screen di test singoli di bb
+
+3
+
+   (INPUT INDIVIDUALI)
+	double principal: G0, 0, L0
+	double annualRate: G0, 0, L0
+	int Years: G0, 0, L0
+	
+    (COMBINAZIONI DI INPUT)
+	parametri (principal, annualRate, years):
+	
+	[(G0 | 0 | L0), (G0 | 0 | L0), (G0 | 0 | L0)]
+
+	"[(G0 | 0 | L0), (G0 | 0 | L0), (G0 | 0 | L0)]", 
+	questa dicitura indica che si prendono tutte le 
+	combinazioni dei parametri, ad esempio: 
+	principal: 500, annualRate: 0, years: -1
+
+    (CLASSI DI OUTPUT)
+	1 - output > 0
+	2 - output = 0
+	3 - Errore
+
+4
+
+Screen di raggruppati
+
    Si ipotizza di conoscere solamente:
 	1. Gli input ed i loro tipi
 	2. Il tipo di output
@@ -51,32 +87,10 @@
    stilare la lista degli stati possibili dei parametri e le loro
    combinazioni.
 --------------------------------------------------------------------------
-	
-   LEGENDA: G0 -> Greater Than 0,
- 	     0 -> Equal to 0,
-	    L0 -> Less Than 0.
-            IntelliJ [IDEA] -> IDE utilizzato.
 
 
-   (INPUT INDIVIDUALI)
-	double principal: G0, 0, L0
-	double annualRate: G0, 0, L0
-	int Years: G0, 0, L0
-	
-    (COMBINAZIONI DI INPUT)
-	parametri (principal, annualRate, years):
-	
-	[(G0 | 0 | L0), (G0 | 0 | L0), (G0 | 0 | L0)]
 
-	"[(G0 | 0 | L0), (G0 | 0 | L0), (G0 | 0 | L0)]", 
-	questa dicitura indica che si prendono tutte le 
-	combinazioni dei parametri, ad esempio: 
-	principal: 500, annualRate: 0, years: -1
 
-    (CLASSI DI OUTPUT)
-	1 - output > 0
-	2 - output = 0
-	3 - Errore
 
     (CASI LIMITE)
 	1 - Tutti i parametri sono L0
