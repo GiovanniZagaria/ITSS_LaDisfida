@@ -9,6 +9,7 @@ class SearchTest {
 	int[] emptyArray = {};
 	int[] notORDArray = {1, 2, 5, 4, 3};
 	int[] ORDArray = {1, 2, 3, 4, 5};
+	int[] ORDArrayBig = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 22, 23};
 	int[] singleElementArray = {1};
 
 	@BeforeAll
@@ -181,6 +182,11 @@ class SearchTest {
 			}
 		}
 		assertFalse(search.binarySearchInRange(numeriPari, numeroDispariCasuale, 0, n - 1));
+	}
+
+	@Test
+	public void testArrayG1_ORDArrayBig(){
+		assertTrue(() -> search.binarySearchInRange(ORDArray, 2, 0, 4));
 	}
 
 

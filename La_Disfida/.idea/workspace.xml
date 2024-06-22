@@ -4,14 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67cf5410-2147-4b93-ab68-4e04f686807c" name="Changes" comment="">
+    <list default="true" id="67cf5410-2147-4b93-ab68-4e04f686807c" name="Changes" comment="Scritti i test per il metodo di testing blackbox in SearchTest. Stanno da rivedere i test per la metodologia di testing whitebox">
+      <change afterPath="$PROJECT_DIR$/../La_Disfida_HW2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../La_Disfida_HW2/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../La_Disfida_HW2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../La_Disfida_HW2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../La_Disfida_HW2/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../La_Disfida_HW2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../La_Disfida_HW2/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../La_Disfida_HW2/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../La_Disfida_HW2/src/main/java/Finance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../La_Disfida_HW2/src/main/java/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../La_Disfida_HW2/src/test/java/FinanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../La_Disfida_HW2/src/test/java/SearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FinanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FinanceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Search.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SearchTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,7 +62,7 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;JUnit.FinanceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FinanceTest.executor&quot;: &quot;Coverage&quot;,
     &quot;JUnit.FinanceTest.testHighInterestRate.executor&quot;: &quot;Debug&quot;,
     &quot;JUnit.FinanceTest.testInitialValues.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.FinanceTest.testVeryHighYears.executor&quot;: &quot;Run&quot;,
@@ -65,8 +84,10 @@
     &quot;JUnit.FinanceTest.test_PrincipalG0_annualRateL0_years0.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.FinanceTest.test_PrincipalG0_annualRateL0_yearsG0.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.FinanceTest.test_PrincipalG0_annualRateL0_yearsL0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SearchTest.executor&quot;: &quot;Coverage&quot;,
     &quot;JUnit.SearchTest.testArray1.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.SearchTest.testArrayG1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SearchTest.testArrayG1_ORDArrayBig.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.SearchTest.testBoundaries.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.SearchTest.testExceptionalCases.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -74,6 +95,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/GitHub/ITSS_LaDisfida&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -88,11 +110,22 @@
       <recent name="D:\GitHub\ITSS_LaDisfida\La_Disfida\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FinanceTest">
+  <component name="RunManager" selected="JUnit.SearchTest">
     <configuration name="FinanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="La_Disfida" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FinanceTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchTest" type="JUnit" factoryName="JUnit">
+      <module name="La_Disfida" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SearchTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,6 +151,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchTest.testArrayG1_ORDArrayBig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="La_Disfida" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SearchTest" />
+      <option name="METHOD_NAME" value="testArrayG1_ORDArrayBig" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SearchTest.testBoundaries" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="La_Disfida" />
       <option name="PACKAGE_NAME" value="" />
@@ -128,23 +171,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTest.testExceptionalCases" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="La_Disfida" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SearchTest" />
-      <option name="METHOD_NAME" value="testExceptionalCases" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="JUnit.SearchTest" />
+      <item itemvalue="JUnit.SearchTest.testArrayG1_ORDArrayBig" />
+      <item itemvalue="JUnit.FinanceTest" />
+      <item itemvalue="JUnit.SearchTest.testArray1" />
+      <item itemvalue="JUnit.SearchTest.testArrayG1" />
+      <item itemvalue="JUnit.SearchTest.testBoundaries" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SearchTest.testArrayG1_ORDArrayBig" />
         <item itemvalue="JUnit.FinanceTest" />
         <item itemvalue="JUnit.SearchTest.testBoundaries" />
         <item itemvalue="JUnit.SearchTest.testArrayG1" />
         <item itemvalue="JUnit.SearchTest.testArray1" />
-        <item itemvalue="JUnit.SearchTest.testExceptionalCases" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +209,9 @@
       <workItem from="1718700752800" duration="220000" />
       <workItem from="1718700993249" duration="6486000" />
       <workItem from="1718723640513" duration="13234000" />
-      <workItem from="1718786267883" duration="2567000" />
+      <workItem from="1718786267883" duration="3310000" />
+      <workItem from="1718957829991" duration="2047000" />
+      <workItem from="1718960390425" duration="224000" />
     </task>
     <task id="LOCAL-00001" summary="creato il progetto con intelliJ IDEA">
       <option name="closed" value="true" />
@@ -269,5 +312,9 @@
     <MESSAGE value="tolta la documentazione in SearchTest" />
     <MESSAGE value="Scritti i test per il metodo di testing blackbox in SearchTest. Stanno da rivedere i test per la metodologia di testing whitebox" />
     <option name="LAST_COMMIT_MESSAGE" value="Scritti i test per il metodo di testing blackbox in SearchTest. Stanno da rivedere i test per la metodologia di testing whitebox" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/FinanceTest_java$FinanceTest.ic" NAME="FinanceTest Coverage Results" MODIFIED="1718958182019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/FinanceTest_java$SearchTest.ic" NAME="SearchTest Coverage Results" MODIFIED="1718958795148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

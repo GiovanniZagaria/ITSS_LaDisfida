@@ -5,7 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bc73b67-984c-432a-85dc-fee9d41bb2c6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/La_Disfida_Homework2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/La_Disfida_Homework2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/La_Disfida_Homework2/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/La_Disfida_Homework2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/La_Disfida_Homework2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/La_Disfida_Homework2/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/La_Disfida_Homework2/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/La_Disfida_Homework2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/La_Disfida_Homework2/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/La_Disfida_Homework2/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/La_Disfida_Homework2/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/La_Disfida_Homework2/src/main/java/Finance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/La_Disfida_Homework2/src/test/java/FinanceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/La_Disfida/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/La_Disfida/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/La_Disfida/src/main/java/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/La_Disfida/src/main/java/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/La_Disfida/src/test/java/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/La_Disfida/src/test/java/SearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/La_Disfida/target/classes/Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/La_Disfida/target/classes/Search.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/La_Disfida/target/test-classes/SearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/La_Disfida/target/test-classes/SearchTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,18 +33,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "GiovanniZagaria"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GiovanniZagaria&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/GiovanniZagaria/ITSS_LaDisfida.git",
-    "accountId": "07395a27-2605-4e2b-a7ed-a6478ad47575"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/GiovanniZagaria/ITSS_LaDisfida.git&quot;,
+    &quot;accountId&quot;: &quot;07395a27-2605-4e2b-a7ed-a6478ad47575&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -35,6 +53,7 @@
 }</component>
   <component name="ProjectId" id="2i0yFLxGocwnzVLkmOvFUId489S" />
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -45,7 +64,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/giova/Documents/GitHub/ITSS_LaDisfida",
+    "last_opened_file_path": "D:/GitHub/ITSS_LaDisfida/La_Disfida_Homework2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,6 +83,10 @@
       <updated>1718641691987</updated>
       <workItem from="1718641693770" duration="205000" />
       <workItem from="1718641926819" duration="356000" />
+      <workItem from="1718959889982" duration="329000" />
+      <workItem from="1718960308242" duration="24000" />
+      <workItem from="1718961055789" duration="770000" />
+      <workItem from="1718961979299" duration="38000" />
     </task>
     <servers />
   </component>

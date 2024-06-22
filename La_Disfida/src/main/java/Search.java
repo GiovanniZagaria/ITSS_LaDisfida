@@ -23,6 +23,7 @@ public class Search {
             if (array[mid] == value) {
                 return true;
             }
+
             if (array[mid] < value) {
                 left = mid + 1;
             } else {
