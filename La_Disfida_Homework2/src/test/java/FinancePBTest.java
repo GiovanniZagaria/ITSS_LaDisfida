@@ -41,5 +41,12 @@ class FinancePBTest {
                                                                     @ForAll @DoubleRange(min = 0.01, max = 100) double annualRate) {
         assertThrows(IllegalArgumentException.class, () -> finance.calculateLoanPayment(principal, annualRate, 0));
     }
+
+    @Property
+    public void testCalculateLoanPaymentThrowsExceptionForNegativeYears(@ForAll @DoubleRange (min = 0.01, max = 1000000) double principal,
+                                                                        @ForAll @DoubleRange(min = 0.01, max = 100) double annualRate,
+                                                                        @ForAll @IntRange(min = -50, max = -1) int years) {
+        assertThrows(IllegalArgumentException.class, () -> finance.calculateLoanPayment(principal, annualRate, years));
+    }
 }
 
