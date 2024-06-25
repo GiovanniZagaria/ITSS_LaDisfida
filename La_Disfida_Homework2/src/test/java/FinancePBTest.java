@@ -1,7 +1,9 @@
-import net.jqwik.api.ForAll;
-import net.jqwik.api.Property;
+import net.jqwik.api.*;
 import net.jqwik.api.constraints.DoubleRange;
 import net.jqwik.api.constraints.IntRange;
+import net.jqwik.api.statistics.Statistics;
+import net.jqwik.api.statistics.StatisticsReport;
+import org.junit.jupiter.api.Assertions;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -48,5 +50,75 @@ class FinancePBTest {
                                                                         @ForAll @IntRange(min = -50, max = -1) int years) {
         assertThrows(IllegalArgumentException.class, () -> finance.calculateLoanPayment(principal, annualRate, years));
     }
+
+    @Property
+    void testInvalidFinance(@ForAll("invalidPrincipal") double principal,
+                 @ForAll("invalidAnnualRate") double annualRate,
+                 @ForAll("invalidYears") int years){
+        assertThrows(IllegalArgumentException.class, () -> finance.calculateLoanPayment(principal, annualRate, years));
+    }
+
+    @Property
+    @StatisticsReport
+    void testStatisticInvalidPrincipal(@ForAll("invalidPrincipal") double principal,
+                                       @ForAll("passAnnualRate") double annualRate,
+                                       @ForAll("passYears") int years){
+        Statistics.collect(principal);
+        Assertions.assertThrows(IllegalArgumentException.class, () -> finance.calculateLoanPayment(principal, annualRate, years));
+
+    }
+    @Property
+    @StatisticsReport
+    void testStatisticInvalidAnnualRate(@ForAll("passPrincipal") double principal,
+                                        @ForAll("invalidAnnualRate") double annualRate,
+                                        @ForAll("passYears") int years){
+        Statistics.collect(annualRate);
+        Assertions.assertThrows(IllegalArgumentException.class, () -> finance.calculateLoanPayment(principal, annualRate, years));
+    }
+
+    @Property
+    @StatisticsReport
+    void testStatisticsInvalidYears(
+            @ForAll("passPrincipal") double principal,
+            @ForAll("passAnnualRate") double annualRate,
+            @ForAll("invalidYears") int years){
+        Statistics.collect(years);
+        Assertions.assertThrows(IllegalArgumentException.class, () -> finance.calculateLoanPayment(principal, annualRate, years));
+    }
+
+    @Provide
+    Arbitrary<Double> invalidPrincipal(){
+        return Arbitraries.oneOf(Arbitraries.doubles().lessThan(0f));
+    }
+
+    @Provide
+    Arbitrary<Double> invalidAnnualRate(){
+        return Arbitraries.oneOf(Arbitraries.doubles().lessThan(0f));
+    }
+
+    @Provide
+    Arbitrary<Integer> invalidYears(){
+        return Arbitraries.oneOf(Arbitraries.integers().lessOrEqual(-1));
+    }
+
+    @Provide
+    Arbitrary<Double> passPrincipal(){
+        return Arbitraries.oneOf(Arbitraries.doubles().greaterOrEqual(0.01),
+                                Arbitraries.doubles().lessOrEqual(1000000));
+    }
+
+    @Provide
+    Arbitrary<Double> passAnnualRate(){
+        return Arbitraries.oneOf(Arbitraries.doubles().greaterOrEqual(0.01),
+                                Arbitraries.doubles().lessOrEqual(100));
+    }
+
+    @Provide
+    Arbitrary<Integer> passYears(){
+        return Arbitraries.oneOf(Arbitraries.integers().greaterOrEqual(1),
+                Arbitraries.integers().lessOrEqual(50));
+    }
+
+
 }
 
